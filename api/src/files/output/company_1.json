@@ -1,0 +1,906 @@
+[
+  {
+    "type": "BLABLA (deleted)",
+    "group": "REVENUE",
+    "value": "10000.00",
+    "startDate": "2023-05-01T00:00:00.000Z",
+    "endDate": "2023-05-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "BLABLA (deleted)",
+    "group": "REVENUE",
+    "value": "13332.00",
+    "startDate": "2023-09-01T00:00:00.000Z",
+    "endDate": "2023-09-30T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "BLABLA (deleted)",
+    "group": "REVENUE",
+    "value": "20000.00",
+    "startDate": "2024-01-01T00:00:00.000Z",
+    "endDate": "2024-01-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Discounts given",
+    "group": "REVENUE",
+    "value": "-89.50",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "endDate": "2023-01-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Discounts given",
+    "group": "REVENUE",
+    "value": "2389.00",
+    "startDate": "2024-04-01T00:00:00.000Z",
+    "endDate": "2024-04-30T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Fountains and Garden Lighting",
+    "group": "REVENUE",
+    "value": "10000.00",
+    "startDate": "2023-06-01T00:00:00.000Z",
+    "endDate": "2023-06-30T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Fountains and Garden Lighting",
+    "group": "REVENUE",
+    "value": "917.00",
+    "startDate": "2024-05-01T00:00:00.000Z",
+    "endDate": "2024-05-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Labor",
+    "group": "REVENUE",
+    "value": "777.00",
+    "startDate": "2024-03-01T00:00:00.000Z",
+    "endDate": "2024-03-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Labor",
+    "group": "REVENUE",
+    "value": "333.00",
+    "startDate": "2024-07-01T00:00:00.000Z",
+    "endDate": "2024-07-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Fountains and Garden Lighting",
+    "group": "REVENUE",
+    "value": "323.00",
+    "startDate": "2022-11-01T00:00:00.000Z",
+    "endDate": "2022-11-30T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Fountains and Garden Lighting",
+    "group": "REVENUE",
+    "value": "422.00",
+    "startDate": "2022-12-01T00:00:00.000Z",
+    "endDate": "2022-12-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Fountains and Garden Lighting",
+    "group": "REVENUE",
+    "value": "1089.00",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "endDate": "2023-01-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Fountains and Garden Lighting",
+    "group": "REVENUE",
+    "value": "412.50",
+    "startDate": "2023-02-01T00:00:00.000Z",
+    "endDate": "2023-02-28T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Plants and Soil",
+    "group": "REVENUE",
+    "value": "131.25",
+    "startDate": "2022-10-01T00:00:00.000Z",
+    "endDate": "2022-10-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Plants and Soil",
+    "group": "REVENUE",
+    "value": "2120.72",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "endDate": "2023-01-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Plants and Soil",
+    "group": "REVENUE",
+    "value": "100.00",
+    "startDate": "2023-02-01T00:00:00.000Z",
+    "endDate": "2023-02-28T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Sprinklers and Drip Systems",
+    "group": "REVENUE",
+    "value": "108.00",
+    "startDate": "2022-11-01T00:00:00.000Z",
+    "endDate": "2022-11-30T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Sprinklers and Drip Systems",
+    "group": "REVENUE",
+    "value": "30.00",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "endDate": "2023-01-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Installation",
+    "group": "REVENUE",
+    "value": "250.00",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "endDate": "2023-01-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Maintenance and Repair",
+    "group": "REVENUE",
+    "value": "50.00",
+    "startDate": "2022-12-01T00:00:00.000Z",
+    "endDate": "2022-12-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Other Income",
+    "group": "REVENUE",
+    "value": "11.00",
+    "startDate": "2022-01-01T00:00:00.000Z",
+    "endDate": "2022-01-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Pest Control Services",
+    "group": "REVENUE",
+    "value": "70.00",
+    "startDate": "2022-10-01T00:00:00.000Z",
+    "endDate": "2022-10-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Pest Control Services",
+    "group": "REVENUE",
+    "value": "70.00",
+    "startDate": "2022-12-01T00:00:00.000Z",
+    "endDate": "2022-12-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Pest Control Services",
+    "group": "REVENUE",
+    "value": "-30.00",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "endDate": "2023-01-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Raviraj",
+    "group": "REVENUE",
+    "value": "3333333.00",
+    "startDate": "2024-02-01T00:00:00.000Z",
+    "endDate": "2024-02-29T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Sales of Product Income",
+    "group": "REVENUE",
+    "value": "44.00",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "endDate": "2023-01-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Sales of Product Income",
+    "group": "REVENUE",
+    "value": "868.75",
+    "startDate": "2023-02-01T00:00:00.000Z",
+    "endDate": "2023-02-28T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Sam and Sam",
+    "group": "REVENUE",
+    "value": "666.00",
+    "startDate": "2024-05-01T00:00:00.000Z",
+    "endDate": "2024-05-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Services",
+    "group": "REVENUE",
+    "value": "25.00",
+    "startDate": "2020-01-01T00:00:00.000Z",
+    "endDate": "2020-01-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Services",
+    "group": "REVENUE",
+    "value": "28.00",
+    "startDate": "2020-04-01T00:00:00.000Z",
+    "endDate": "2020-04-30T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Services",
+    "group": "REVENUE",
+    "value": "29.00",
+    "startDate": "2020-05-01T00:00:00.000Z",
+    "endDate": "2020-05-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Services",
+    "group": "REVENUE",
+    "value": "30.00",
+    "startDate": "2020-06-01T00:00:00.000Z",
+    "endDate": "2020-06-30T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Services",
+    "group": "REVENUE",
+    "value": "200.00",
+    "startDate": "2020-12-01T00:00:00.000Z",
+    "endDate": "2020-12-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Services",
+    "group": "REVENUE",
+    "value": "200.00",
+    "startDate": "2021-01-01T00:00:00.000Z",
+    "endDate": "2021-01-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Services",
+    "group": "REVENUE",
+    "value": "1.00",
+    "startDate": "2021-03-01T00:00:00.000Z",
+    "endDate": "2021-03-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Services",
+    "group": "REVENUE",
+    "value": "7.00",
+    "startDate": "2021-09-01T00:00:00.000Z",
+    "endDate": "2021-09-30T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Services",
+    "group": "REVENUE",
+    "value": "8.00",
+    "startDate": "2021-10-01T00:00:00.000Z",
+    "endDate": "2021-10-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Services",
+    "group": "REVENUE",
+    "value": "9.00",
+    "startDate": "2021-11-01T00:00:00.000Z",
+    "endDate": "2021-11-30T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Services",
+    "group": "REVENUE",
+    "value": "13.00",
+    "startDate": "2022-03-01T00:00:00.000Z",
+    "endDate": "2022-03-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Services",
+    "group": "REVENUE",
+    "value": "15.00",
+    "startDate": "2022-05-01T00:00:00.000Z",
+    "endDate": "2022-05-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Services",
+    "group": "REVENUE",
+    "value": "18.00",
+    "startDate": "2022-08-01T00:00:00.000Z",
+    "endDate": "2022-08-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Services",
+    "group": "REVENUE",
+    "value": "22.00",
+    "startDate": "2022-12-01T00:00:00.000Z",
+    "endDate": "2022-12-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Services",
+    "group": "REVENUE",
+    "value": "503.55",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "endDate": "2023-01-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Services",
+    "group": "REVENUE",
+    "value": "-1000.00",
+    "startDate": "2024-04-01T00:00:00.000Z",
+    "endDate": "2024-04-30T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Small business income",
+    "group": "REVENUE",
+    "value": "6056.00",
+    "startDate": "2023-03-01T00:00:00.000Z",
+    "endDate": "2023-03-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Small business income",
+    "group": "REVENUE",
+    "value": "123.00",
+    "startDate": "2023-04-01T00:00:00.000Z",
+    "endDate": "2023-04-30T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Small business income",
+    "group": "REVENUE",
+    "value": "6666.00",
+    "startDate": "2023-05-01T00:00:00.000Z",
+    "endDate": "2023-05-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Small business income",
+    "group": "REVENUE",
+    "value": "99724.00",
+    "startDate": "2023-06-01T00:00:00.000Z",
+    "endDate": "2023-06-30T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Unapplied Cash Payment Income",
+    "group": "REVENUE",
+    "value": "-99724.00",
+    "startDate": "2023-06-01T00:00:00.000Z",
+    "endDate": "2023-06-30T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Uncategorized Income",
+    "group": "REVENUE",
+    "value": "200.00",
+    "startDate": "2023-02-01T00:00:00.000Z",
+    "endDate": "2023-02-28T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Uncategorized Income",
+    "group": "REVENUE",
+    "value": "55.00",
+    "startDate": "2023-03-01T00:00:00.000Z",
+    "endDate": "2023-03-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Uncategorized Income",
+    "group": "REVENUE",
+    "value": "-100.00",
+    "startDate": "2024-04-01T00:00:00.000Z",
+    "endDate": "2024-04-30T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Uncategorized Income",
+    "group": "REVENUE",
+    "value": "-500.00",
+    "startDate": "2024-05-01T00:00:00.000Z",
+    "endDate": "2024-05-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Uncategorized Income",
+    "group": "REVENUE",
+    "value": "-10502.00",
+    "startDate": "2025-05-01T00:00:00.000Z",
+    "endDate": "2025-05-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Cost of Goods Sold",
+    "group": "COGS",
+    "value": "405.00",
+    "startDate": "2023-02-01T00:00:00.000Z",
+    "endDate": "2023-02-28T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Cost of Goods Sold",
+    "group": "COGS",
+    "value": "4316.00",
+    "startDate": "2023-03-01T00:00:00.000Z",
+    "endDate": "2023-03-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Pizza pasta pasta",
+    "group": "COGS",
+    "value": "95556.00",
+    "startDate": "2023-09-01T00:00:00.000Z",
+    "endDate": "2023-09-30T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Pizza pasta pasta",
+    "group": "COGS",
+    "value": "500.00",
+    "startDate": "2024-05-01T00:00:00.000Z",
+    "endDate": "2024-05-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Advertising",
+    "group": "EXPENSES",
+    "value": "74.86",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "endDate": "2023-01-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Advertising",
+    "group": "EXPENSES",
+    "value": "1000.00",
+    "startDate": "2024-03-01T00:00:00.000Z",
+    "endDate": "2024-03-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Fuel",
+    "group": "EXPENSES",
+    "value": "116.56",
+    "startDate": "2022-12-01T00:00:00.000Z",
+    "endDate": "2022-12-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Fuel",
+    "group": "EXPENSES",
+    "value": "117.14",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "endDate": "2023-01-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Fuel",
+    "group": "EXPENSES",
+    "value": "115.71",
+    "startDate": "2023-02-01T00:00:00.000Z",
+    "endDate": "2023-02-28T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Bank Charges",
+    "group": "EXPENSES",
+    "value": "-27.00",
+    "startDate": "2020-03-01T00:00:00.000Z",
+    "endDate": "2020-03-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Bank Charges",
+    "group": "EXPENSES",
+    "value": "-33.00",
+    "startDate": "2020-09-01T00:00:00.000Z",
+    "endDate": "2020-09-30T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Bank Charges",
+    "group": "EXPENSES",
+    "value": "-200.00",
+    "startDate": "2021-02-01T00:00:00.000Z",
+    "endDate": "2021-02-28T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Bank Charges",
+    "group": "EXPENSES",
+    "value": "-10.00",
+    "startDate": "2021-12-01T00:00:00.000Z",
+    "endDate": "2021-12-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Design income",
+    "group": "EXPENSES",
+    "value": "-10000.00",
+    "startDate": "2024-04-01T00:00:00.000Z",
+    "endDate": "2024-04-30T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Contractor",
+    "group": "EXPENSES",
+    "value": "750.00",
+    "startDate": "2023-03-01T00:00:00.000Z",
+    "endDate": "2023-03-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Equipment Rental",
+    "group": "EXPENSES",
+    "value": "112.00",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "endDate": "2023-01-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Equipment Rental",
+    "group": "EXPENSES",
+    "value": "-10000.00",
+    "startDate": "2024-05-01T00:00:00.000Z",
+    "endDate": "2024-05-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Fuel",
+    "group": "EXPENSES",
+    "value": "-16.00",
+    "startDate": "2022-06-01T00:00:00.000Z",
+    "endDate": "2022-06-30T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Fuel",
+    "group": "EXPENSES",
+    "value": "1991.00",
+    "startDate": "2024-05-01T00:00:00.000Z",
+    "endDate": "2024-05-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Installation",
+    "group": "EXPENSES",
+    "value": "-1000.00",
+    "startDate": "2023-03-01T00:00:00.000Z",
+    "endDate": "2023-03-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Installation",
+    "group": "EXPENSES",
+    "value": "-1000.00",
+    "startDate": "2023-04-01T00:00:00.000Z",
+    "endDate": "2023-04-30T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Installation",
+    "group": "EXPENSES",
+    "value": "-1000.00",
+    "startDate": "2023-05-01T00:00:00.000Z",
+    "endDate": "2023-05-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Installation",
+    "group": "EXPENSES",
+    "value": "-1000.00",
+    "startDate": "2023-06-01T00:00:00.000Z",
+    "endDate": "2023-06-30T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Installation",
+    "group": "EXPENSES",
+    "value": "-1000.00",
+    "startDate": "2023-07-01T00:00:00.000Z",
+    "endDate": "2023-07-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Installation",
+    "group": "EXPENSES",
+    "value": "3333.00",
+    "startDate": "2023-09-01T00:00:00.000Z",
+    "endDate": "2023-09-30T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Insurance",
+    "group": "EXPENSES",
+    "value": "241.23",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "endDate": "2023-01-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Decks and Patios",
+    "group": "EXPENSES",
+    "value": "191.64",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "endDate": "2023-01-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Decks and Patios",
+    "group": "EXPENSES",
+    "value": "42.40",
+    "startDate": "2023-02-01T00:00:00.000Z",
+    "endDate": "2023-02-28T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Plants and Soil",
+    "group": "EXPENSES",
+    "value": "158.08",
+    "startDate": "2022-11-01T00:00:00.000Z",
+    "endDate": "2022-11-30T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Plants and Soil",
+    "group": "EXPENSES",
+    "value": "89.09",
+    "startDate": "2022-12-01T00:00:00.000Z",
+    "endDate": "2022-12-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Plants and Soil",
+    "group": "EXPENSES",
+    "value": "82.45",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "endDate": "2023-01-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Plants and Soil",
+    "group": "EXPENSES",
+    "value": "23.50",
+    "startDate": "2023-02-01T00:00:00.000Z",
+    "endDate": "2023-02-28T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Sprinklers and Drip Systems",
+    "group": "EXPENSES",
+    "value": "215.66",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "endDate": "2023-01-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Accounting",
+    "group": "EXPENSES",
+    "value": "250.00",
+    "startDate": "2022-11-01T00:00:00.000Z",
+    "endDate": "2022-11-30T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Accounting",
+    "group": "EXPENSES",
+    "value": "75.00",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "endDate": "2023-01-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Accounting",
+    "group": "EXPENSES",
+    "value": "315.00",
+    "startDate": "2023-02-01T00:00:00.000Z",
+    "endDate": "2023-02-28T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Bookkeeper",
+    "group": "EXPENSES",
+    "value": "55.00",
+    "startDate": "2022-12-01T00:00:00.000Z",
+    "endDate": "2022-12-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Lawyer",
+    "group": "EXPENSES",
+    "value": "300.00",
+    "startDate": "2022-10-01T00:00:00.000Z",
+    "endDate": "2022-10-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Lawyer",
+    "group": "EXPENSES",
+    "value": "100.00",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "endDate": "2023-01-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Equipment Repairs",
+    "group": "EXPENSES",
+    "value": "755.00",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "endDate": "2023-01-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Maintenance and Repairs",
+    "group": "EXPENSES",
+    "value": "-12.00",
+    "startDate": "2022-02-01T00:00:00.000Z",
+    "endDate": "2022-02-28T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Meals and Entertainment",
+    "group": "EXPENSES",
+    "value": "9.52",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "endDate": "2023-01-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Meals and Entertainment",
+    "group": "EXPENSES",
+    "value": "18.97",
+    "startDate": "2023-02-01T00:00:00.000Z",
+    "endDate": "2023-02-28T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Office Expenses",
+    "group": "EXPENSES",
+    "value": "18.08",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "endDate": "2023-01-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Plants and Soil",
+    "group": "EXPENSES",
+    "value": "-10000.00",
+    "startDate": "2023-03-01T00:00:00.000Z",
+    "endDate": "2023-03-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Plants and Soil",
+    "group": "EXPENSES",
+    "value": "-10000.00",
+    "startDate": "2023-04-01T00:00:00.000Z",
+    "endDate": "2023-04-30T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Plants and Soil",
+    "group": "EXPENSES",
+    "value": "-10000.00",
+    "startDate": "2023-06-01T00:00:00.000Z",
+    "endDate": "2023-06-30T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Plants and Soil",
+    "group": "EXPENSES",
+    "value": "-10000.00",
+    "startDate": "2023-07-01T00:00:00.000Z",
+    "endDate": "2023-07-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Rent or Lease",
+    "group": "EXPENSES",
+    "value": "900.00",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "endDate": "2023-01-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Unapplied Cash Bill Payment Expense",
+    "group": "EXPENSES",
+    "value": "-3566.00",
+    "startDate": "2023-03-01T00:00:00.000Z",
+    "endDate": "2023-03-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Gas and Electric",
+    "group": "EXPENSES",
+    "value": "86.44",
+    "startDate": "2022-12-01T00:00:00.000Z",
+    "endDate": "2022-12-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Gas and Electric",
+    "group": "EXPENSES",
+    "value": "114.09",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "endDate": "2023-01-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Telephone",
+    "group": "EXPENSES",
+    "value": "56.50",
+    "startDate": "2022-12-01T00:00:00.000Z",
+    "endDate": "2022-12-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Telephone",
+    "group": "EXPENSES",
+    "value": "74.36",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "endDate": "2023-01-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Interest Earned",
+    "group": "OTHER_INCOME",
+    "value": "26.00",
+    "startDate": "2020-02-01T00:00:00.000Z",
+    "endDate": "2020-02-29T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Interest Earned",
+    "group": "OTHER_INCOME",
+    "value": "31.00",
+    "startDate": "2020-07-01T00:00:00.000Z",
+    "endDate": "2020-07-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Interest Earned",
+    "group": "OTHER_INCOME",
+    "value": "17.00",
+    "startDate": "2022-07-01T00:00:00.000Z",
+    "endDate": "2022-07-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Miscellaneous",
+    "group": "OTHER_EXPENSES",
+    "value": "250.00",
+    "startDate": "2022-12-01T00:00:00.000Z",
+    "endDate": "2022-12-31T00:00:00.000Z",
+    "source": "source_1"
+  },
+  {
+    "type": "Miscellaneous",
+    "group": "OTHER_EXPENSES",
+    "value": "2666.00",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "endDate": "2023-01-31T00:00:00.000Z",
+    "source": "source_1"
+  }
+]

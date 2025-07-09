@@ -1,0 +1,41 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Company {
+  id        Int      @id @default(autoincrement())
+  name      String?
+  records   Record[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Record {
+  id          Int            @id @default(autoincrement())
+  company     Company        @relation(fields: [companyId], references: [id])
+  companyId   Int
+  source      String         // e.g. "quickbooks", "rootfi"
+  type        String?         // e.g. "Rent", "Marketing", "Miscellaneous"
+  group       CategoryGroup  // e.g. opex, revenue, etc
+  value       Decimal       @db.Decimal(10, 2)
+  startDate   DateTime       
+  endDate     DateTime       
+  createdAt   DateTime       @default(now())
+  updatedAt   DateTime       @updatedAt
+}
+
+enum CategoryGroup {
+  NON_OPERATING_EXPENSES
+  OTHER_INCOME
+  OPERATING_EXPENSES
+  OTHER_EXPENSES
+  COGS
+  REVENUE
+  EXPENSES
+  INCOME_TAX
+}

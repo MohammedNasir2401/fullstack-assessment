@@ -1,0 +1,9 @@
+{
+  "name": "task-kudwa-monorepo",
+  "private": true,
+  "scripts": {},
+  "workspaces": [
+    "api",
+    "dashboard"
+  ]
+}

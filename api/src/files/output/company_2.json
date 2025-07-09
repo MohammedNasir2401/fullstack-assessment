@@ -1,0 +1,1138 @@
+[
+  {
+    "type": "Sales of Product Income:Sales of Prod 1",
+    "group": "REVENUE",
+    "value": "62500.00",
+    "startDate": "2023-08-01T00:00:00.000Z",
+    "endDate": "2023-08-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 2",
+    "group": "REVENUE",
+    "value": "23700.00",
+    "startDate": "2023-08-01T00:00:00.000Z",
+    "endDate": "2023-08-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 3",
+    "group": "REVENUE",
+    "value": "226000.00",
+    "startDate": "2023-08-01T00:00:00.000Z",
+    "endDate": "2023-08-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Cost of sales",
+    "group": "COGS",
+    "value": "202400.00",
+    "startDate": "2023-08-01T00:00:00.000Z",
+    "endDate": "2023-08-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Office expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "3000.00",
+    "startDate": "2023-08-01T00:00:00.000Z",
+    "endDate": "2023-08-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Payroll Expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "4000.00",
+    "startDate": "2023-08-01T00:00:00.000Z",
+    "endDate": "2023-08-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Rent",
+    "group": "OPERATING_EXPENSES",
+    "value": "10000.00",
+    "startDate": "2023-08-01T00:00:00.000Z",
+    "endDate": "2023-08-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 1",
+    "group": "REVENUE",
+    "value": "87500.00",
+    "startDate": "2023-09-01T00:00:00.000Z",
+    "endDate": "2023-09-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 2",
+    "group": "REVENUE",
+    "value": "27600.00",
+    "startDate": "2023-09-01T00:00:00.000Z",
+    "endDate": "2023-09-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 3",
+    "group": "REVENUE",
+    "value": "180000.00",
+    "startDate": "2023-09-01T00:00:00.000Z",
+    "endDate": "2023-09-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Cost of sales",
+    "group": "COGS",
+    "value": "179200.00",
+    "startDate": "2023-09-01T00:00:00.000Z",
+    "endDate": "2023-09-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Office expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "3000.00",
+    "startDate": "2023-09-01T00:00:00.000Z",
+    "endDate": "2023-09-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Payroll Expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "4000.00",
+    "startDate": "2023-09-01T00:00:00.000Z",
+    "endDate": "2023-09-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Rent",
+    "group": "OPERATING_EXPENSES",
+    "value": "10000.00",
+    "startDate": "2023-09-01T00:00:00.000Z",
+    "endDate": "2023-09-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 1",
+    "group": "REVENUE",
+    "value": "124500.00",
+    "startDate": "2023-10-01T00:00:00.000Z",
+    "endDate": "2023-10-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 2",
+    "group": "REVENUE",
+    "value": "33600.00",
+    "startDate": "2023-10-01T00:00:00.000Z",
+    "endDate": "2023-10-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 3",
+    "group": "REVENUE",
+    "value": "336000.00",
+    "startDate": "2023-10-01T00:00:00.000Z",
+    "endDate": "2023-10-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Cost of sales",
+    "group": "COGS",
+    "value": "313000.00",
+    "startDate": "2023-10-01T00:00:00.000Z",
+    "endDate": "2023-10-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Office expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "2000.00",
+    "startDate": "2023-10-01T00:00:00.000Z",
+    "endDate": "2023-10-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Payroll Expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "4000.00",
+    "startDate": "2023-10-01T00:00:00.000Z",
+    "endDate": "2023-10-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Rent",
+    "group": "OPERATING_EXPENSES",
+    "value": "10000.00",
+    "startDate": "2023-10-01T00:00:00.000Z",
+    "endDate": "2023-10-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 1",
+    "group": "REVENUE",
+    "value": "132500.00",
+    "startDate": "2023-11-01T00:00:00.000Z",
+    "endDate": "2023-11-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 2",
+    "group": "REVENUE",
+    "value": "35700.00",
+    "startDate": "2023-11-01T00:00:00.000Z",
+    "endDate": "2023-11-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 3",
+    "group": "REVENUE",
+    "value": "340000.00",
+    "startDate": "2023-11-01T00:00:00.000Z",
+    "endDate": "2023-11-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Cost of sales",
+    "group": "COGS",
+    "value": "319900.00",
+    "startDate": "2023-11-01T00:00:00.000Z",
+    "endDate": "2023-11-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Office expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "3000.00",
+    "startDate": "2023-11-01T00:00:00.000Z",
+    "endDate": "2023-11-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Payroll Expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "4000.00",
+    "startDate": "2023-11-01T00:00:00.000Z",
+    "endDate": "2023-11-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Rent",
+    "group": "OPERATING_EXPENSES",
+    "value": "10000.00",
+    "startDate": "2023-11-01T00:00:00.000Z",
+    "endDate": "2023-11-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 1",
+    "group": "REVENUE",
+    "value": "84500.00",
+    "startDate": "2023-12-01T00:00:00.000Z",
+    "endDate": "2023-12-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 2",
+    "group": "REVENUE",
+    "value": "34800.00",
+    "startDate": "2023-12-01T00:00:00.000Z",
+    "endDate": "2023-12-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 3",
+    "group": "REVENUE",
+    "value": "460000.00",
+    "startDate": "2023-12-01T00:00:00.000Z",
+    "endDate": "2023-12-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Cost of sales",
+    "group": "COGS",
+    "value": "390400.00",
+    "startDate": "2023-12-01T00:00:00.000Z",
+    "endDate": "2023-12-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Office expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "3000.00",
+    "startDate": "2023-12-01T00:00:00.000Z",
+    "endDate": "2023-12-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Payroll Expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "4000.00",
+    "startDate": "2023-12-01T00:00:00.000Z",
+    "endDate": "2023-12-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Rent",
+    "group": "OPERATING_EXPENSES",
+    "value": "20000.00",
+    "startDate": "2023-12-01T00:00:00.000Z",
+    "endDate": "2023-12-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 1",
+    "group": "REVENUE",
+    "value": "119000.00",
+    "startDate": "2024-01-01T00:00:00.000Z",
+    "endDate": "2024-01-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 2",
+    "group": "REVENUE",
+    "value": "37500.00",
+    "startDate": "2024-01-01T00:00:00.000Z",
+    "endDate": "2024-01-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 3",
+    "group": "REVENUE",
+    "value": "400000.00",
+    "startDate": "2024-01-01T00:00:00.000Z",
+    "endDate": "2024-01-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Cost of sales",
+    "group": "COGS",
+    "value": "360100.00",
+    "startDate": "2024-01-01T00:00:00.000Z",
+    "endDate": "2024-01-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Office expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "6000.00",
+    "startDate": "2024-01-01T00:00:00.000Z",
+    "endDate": "2024-01-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Payroll Expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "4000.00",
+    "startDate": "2024-01-01T00:00:00.000Z",
+    "endDate": "2024-01-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Rent",
+    "group": "OPERATING_EXPENSES",
+    "value": "20000.00",
+    "startDate": "2024-01-01T00:00:00.000Z",
+    "endDate": "2024-01-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 1",
+    "group": "REVENUE",
+    "value": "100000.00",
+    "startDate": "2024-02-01T00:00:00.000Z",
+    "endDate": "2024-02-29T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 2",
+    "group": "REVENUE",
+    "value": "33600.00",
+    "startDate": "2024-02-01T00:00:00.000Z",
+    "endDate": "2024-02-29T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 3",
+    "group": "REVENUE",
+    "value": "550000.00",
+    "startDate": "2024-02-01T00:00:00.000Z",
+    "endDate": "2024-02-29T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Cost of sales",
+    "group": "COGS",
+    "value": "463700.00",
+    "startDate": "2024-02-01T00:00:00.000Z",
+    "endDate": "2024-02-29T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Office expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "3000.00",
+    "startDate": "2024-02-01T00:00:00.000Z",
+    "endDate": "2024-02-29T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Payroll Expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "4000.00",
+    "startDate": "2024-02-01T00:00:00.000Z",
+    "endDate": "2024-02-29T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Rent",
+    "group": "OPERATING_EXPENSES",
+    "value": "10000.00",
+    "startDate": "2024-02-01T00:00:00.000Z",
+    "endDate": "2024-02-29T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 1",
+    "group": "REVENUE",
+    "value": "127500.00",
+    "startDate": "2024-03-01T00:00:00.000Z",
+    "endDate": "2024-03-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 2",
+    "group": "REVENUE",
+    "value": "60600.00",
+    "startDate": "2024-03-01T00:00:00.000Z",
+    "endDate": "2024-03-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 3",
+    "group": "REVENUE",
+    "value": "418000.00",
+    "startDate": "2024-03-01T00:00:00.000Z",
+    "endDate": "2024-03-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Cost of sales",
+    "group": "COGS",
+    "value": "384700.00",
+    "startDate": "2024-03-01T00:00:00.000Z",
+    "endDate": "2024-03-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Office expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "3000.00",
+    "startDate": "2024-03-01T00:00:00.000Z",
+    "endDate": "2024-03-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Other Expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "741.81",
+    "startDate": "2024-03-01T00:00:00.000Z",
+    "endDate": "2024-03-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Payroll Expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "4000.00",
+    "startDate": "2024-03-01T00:00:00.000Z",
+    "endDate": "2024-03-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Purchase Discounts",
+    "group": "OPERATING_EXPENSES",
+    "value": "-970.62",
+    "startDate": "2024-03-01T00:00:00.000Z",
+    "endDate": "2024-03-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Rent",
+    "group": "OPERATING_EXPENSES",
+    "value": "10000.00",
+    "startDate": "2024-03-01T00:00:00.000Z",
+    "endDate": "2024-03-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income",
+    "group": "REVENUE",
+    "value": "6000.00",
+    "startDate": "2024-04-01T00:00:00.000Z",
+    "endDate": "2024-04-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 1",
+    "group": "REVENUE",
+    "value": "122080.00",
+    "startDate": "2024-04-01T00:00:00.000Z",
+    "endDate": "2024-04-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 2",
+    "group": "REVENUE",
+    "value": "40500.00",
+    "startDate": "2024-04-01T00:00:00.000Z",
+    "endDate": "2024-04-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 3",
+    "group": "REVENUE",
+    "value": "410000.00",
+    "startDate": "2024-04-01T00:00:00.000Z",
+    "endDate": "2024-04-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Cost of sales",
+    "group": "COGS",
+    "value": "370000.00",
+    "startDate": "2024-04-01T00:00:00.000Z",
+    "endDate": "2024-04-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Office expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "3000.00",
+    "startDate": "2024-04-01T00:00:00.000Z",
+    "endDate": "2024-04-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Other Expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "1354.77",
+    "startDate": "2024-04-01T00:00:00.000Z",
+    "endDate": "2024-04-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Payroll Expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "5000.00",
+    "startDate": "2024-04-01T00:00:00.000Z",
+    "endDate": "2024-04-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Purchase Discounts",
+    "group": "OPERATING_EXPENSES",
+    "value": "-603.01",
+    "startDate": "2024-04-01T00:00:00.000Z",
+    "endDate": "2024-04-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Rent",
+    "group": "OPERATING_EXPENSES",
+    "value": "10000.00",
+    "startDate": "2024-04-01T00:00:00.000Z",
+    "endDate": "2024-04-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 1",
+    "group": "REVENUE",
+    "value": "125000.00",
+    "startDate": "2024-05-01T00:00:00.000Z",
+    "endDate": "2024-05-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 2",
+    "group": "REVENUE",
+    "value": "36000.00",
+    "startDate": "2024-05-01T00:00:00.000Z",
+    "endDate": "2024-05-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 3",
+    "group": "REVENUE",
+    "value": "458000.00",
+    "startDate": "2024-05-01T00:00:00.000Z",
+    "endDate": "2024-05-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Cost of sales",
+    "group": "COGS",
+    "value": "405500.00",
+    "startDate": "2024-05-01T00:00:00.000Z",
+    "endDate": "2024-05-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Office expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "3000.00",
+    "startDate": "2024-05-01T00:00:00.000Z",
+    "endDate": "2024-05-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Other Expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "785.86",
+    "startDate": "2024-05-01T00:00:00.000Z",
+    "endDate": "2024-05-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Payroll Expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "5000.00",
+    "startDate": "2024-05-01T00:00:00.000Z",
+    "endDate": "2024-05-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Purchase Discounts",
+    "group": "OPERATING_EXPENSES",
+    "value": "-1297.28",
+    "startDate": "2024-05-01T00:00:00.000Z",
+    "endDate": "2024-05-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Rent",
+    "group": "OPERATING_EXPENSES",
+    "value": "10000.00",
+    "startDate": "2024-05-01T00:00:00.000Z",
+    "endDate": "2024-05-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income",
+    "group": "REVENUE",
+    "value": "6000.00",
+    "startDate": "2024-06-01T00:00:00.000Z",
+    "endDate": "2024-06-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 1",
+    "group": "REVENUE",
+    "value": "68000.00",
+    "startDate": "2024-06-01T00:00:00.000Z",
+    "endDate": "2024-06-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 2",
+    "group": "REVENUE",
+    "value": "51000.00",
+    "startDate": "2024-06-01T00:00:00.000Z",
+    "endDate": "2024-06-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 3",
+    "group": "REVENUE",
+    "value": "550000.00",
+    "startDate": "2024-06-01T00:00:00.000Z",
+    "endDate": "2024-06-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Cost of sales",
+    "group": "COGS",
+    "value": "456700.00",
+    "startDate": "2024-06-01T00:00:00.000Z",
+    "endDate": "2024-06-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Office expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "3000.00",
+    "startDate": "2024-06-01T00:00:00.000Z",
+    "endDate": "2024-06-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Other Expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "1461.06",
+    "startDate": "2024-06-01T00:00:00.000Z",
+    "endDate": "2024-06-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Payroll Expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "5000.00",
+    "startDate": "2024-06-01T00:00:00.000Z",
+    "endDate": "2024-06-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Purchase Discounts",
+    "group": "OPERATING_EXPENSES",
+    "value": "-1699.86",
+    "startDate": "2024-06-01T00:00:00.000Z",
+    "endDate": "2024-06-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Rent",
+    "group": "OPERATING_EXPENSES",
+    "value": "10000.00",
+    "startDate": "2024-06-01T00:00:00.000Z",
+    "endDate": "2024-06-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income",
+    "group": "REVENUE",
+    "value": "50000.00",
+    "startDate": "2024-07-01T00:00:00.000Z",
+    "endDate": "2024-07-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 1",
+    "group": "REVENUE",
+    "value": "175000.00",
+    "startDate": "2024-07-01T00:00:00.000Z",
+    "endDate": "2024-07-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 2",
+    "group": "REVENUE",
+    "value": "43600.00",
+    "startDate": "2024-07-01T00:00:00.000Z",
+    "endDate": "2024-07-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 3",
+    "group": "REVENUE",
+    "value": "870000.00",
+    "startDate": "2024-07-01T00:00:00.000Z",
+    "endDate": "2024-07-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Cost of sales",
+    "group": "COGS",
+    "value": "735700.00",
+    "startDate": "2024-07-01T00:00:00.000Z",
+    "endDate": "2024-07-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Office expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "5000.00",
+    "startDate": "2024-07-01T00:00:00.000Z",
+    "endDate": "2024-07-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Other Expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "965.80",
+    "startDate": "2024-07-01T00:00:00.000Z",
+    "endDate": "2024-07-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Payroll Expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "5000.00",
+    "startDate": "2024-07-01T00:00:00.000Z",
+    "endDate": "2024-07-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Purchase Discounts",
+    "group": "OPERATING_EXPENSES",
+    "value": "-1289.56",
+    "startDate": "2024-07-01T00:00:00.000Z",
+    "endDate": "2024-07-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Rent",
+    "group": "OPERATING_EXPENSES",
+    "value": "20000.00",
+    "startDate": "2024-07-01T00:00:00.000Z",
+    "endDate": "2024-07-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 1",
+    "group": "REVENUE",
+    "value": "176500.00",
+    "startDate": "2024-08-01T00:00:00.000Z",
+    "endDate": "2024-08-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 2",
+    "group": "REVENUE",
+    "value": "64500.00",
+    "startDate": "2024-08-01T00:00:00.000Z",
+    "endDate": "2024-08-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 3",
+    "group": "REVENUE",
+    "value": "360000.00",
+    "startDate": "2024-08-01T00:00:00.000Z",
+    "endDate": "2024-08-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Cost of sales",
+    "group": "COGS",
+    "value": "362100.00",
+    "startDate": "2024-08-01T00:00:00.000Z",
+    "endDate": "2024-08-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Office expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "3000.00",
+    "startDate": "2024-08-01T00:00:00.000Z",
+    "endDate": "2024-08-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Other Expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "1633.26",
+    "startDate": "2024-08-01T00:00:00.000Z",
+    "endDate": "2024-08-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Payroll Expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "5000.00",
+    "startDate": "2024-08-01T00:00:00.000Z",
+    "endDate": "2024-08-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Purchase Discounts",
+    "group": "OPERATING_EXPENSES",
+    "value": "-2481.13",
+    "startDate": "2024-08-01T00:00:00.000Z",
+    "endDate": "2024-08-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Rent",
+    "group": "OPERATING_EXPENSES",
+    "value": "10000.00",
+    "startDate": "2024-08-01T00:00:00.000Z",
+    "endDate": "2024-08-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 1",
+    "group": "REVENUE",
+    "value": "114500.00",
+    "startDate": "2024-09-01T00:00:00.000Z",
+    "endDate": "2024-09-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 2",
+    "group": "REVENUE",
+    "value": "41700.00",
+    "startDate": "2024-09-01T00:00:00.000Z",
+    "endDate": "2024-09-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 3",
+    "group": "REVENUE",
+    "value": "598000.00",
+    "startDate": "2024-09-01T00:00:00.000Z",
+    "endDate": "2024-09-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Cost of sales",
+    "group": "COGS",
+    "value": "508200.00",
+    "startDate": "2024-09-01T00:00:00.000Z",
+    "endDate": "2024-09-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Office expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "2000.00",
+    "startDate": "2024-09-01T00:00:00.000Z",
+    "endDate": "2024-09-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Other Expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "5595.64",
+    "startDate": "2024-09-01T00:00:00.000Z",
+    "endDate": "2024-09-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Payroll Expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "5000.00",
+    "startDate": "2024-09-01T00:00:00.000Z",
+    "endDate": "2024-09-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Purchase Discounts",
+    "group": "OPERATING_EXPENSES",
+    "value": "-5452.95",
+    "startDate": "2024-09-01T00:00:00.000Z",
+    "endDate": "2024-09-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Rent",
+    "group": "OPERATING_EXPENSES",
+    "value": "10000.00",
+    "startDate": "2024-09-01T00:00:00.000Z",
+    "endDate": "2024-09-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 1",
+    "group": "REVENUE",
+    "value": "99500.00",
+    "startDate": "2024-10-01T00:00:00.000Z",
+    "endDate": "2024-10-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 2",
+    "group": "REVENUE",
+    "value": "35700.00",
+    "startDate": "2024-10-01T00:00:00.000Z",
+    "endDate": "2024-10-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales of Product Income:Sales of Prod 3",
+    "group": "REVENUE",
+    "value": "420000.00",
+    "startDate": "2024-10-01T00:00:00.000Z",
+    "endDate": "2024-10-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Services",
+    "group": "REVENUE",
+    "value": "2000.00",
+    "startDate": "2024-10-01T00:00:00.000Z",
+    "endDate": "2024-10-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Cost of sales",
+    "group": "COGS",
+    "value": "366700.00",
+    "startDate": "2024-10-01T00:00:00.000Z",
+    "endDate": "2024-10-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "depreciation of office Equipments",
+    "group": "OPERATING_EXPENSES",
+    "value": "200.00",
+    "startDate": "2024-10-01T00:00:00.000Z",
+    "endDate": "2024-10-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Office expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "1000.00",
+    "startDate": "2024-10-01T00:00:00.000Z",
+    "endDate": "2024-10-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Other Expense",
+    "group": "OPERATING_EXPENSES",
+    "value": "-1000.00",
+    "startDate": "2024-10-01T00:00:00.000Z",
+    "endDate": "2024-10-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Other Expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "6469.36",
+    "startDate": "2024-10-01T00:00:00.000Z",
+    "endDate": "2024-10-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Payroll Expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "5000.00",
+    "startDate": "2024-10-01T00:00:00.000Z",
+    "endDate": "2024-10-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Purchase Discounts",
+    "group": "OPERATING_EXPENSES",
+    "value": "-5786.52",
+    "startDate": "2024-10-01T00:00:00.000Z",
+    "endDate": "2024-10-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Other Expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "7763.96",
+    "startDate": "2024-11-01T00:00:00.000Z",
+    "endDate": "2024-11-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Purchase Discounts",
+    "group": "OPERATING_EXPENSES",
+    "value": "-7359.97",
+    "startDate": "2024-11-01T00:00:00.000Z",
+    "endDate": "2024-11-30T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Other Expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "7382.73",
+    "startDate": "2024-12-01T00:00:00.000Z",
+    "endDate": "2024-12-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Purchase Discounts",
+    "group": "OPERATING_EXPENSES",
+    "value": "-7724.46",
+    "startDate": "2024-12-01T00:00:00.000Z",
+    "endDate": "2024-12-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales",
+    "group": "REVENUE",
+    "value": "24559.00",
+    "startDate": "2025-01-01T00:00:00.000Z",
+    "endDate": "2025-01-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Other Expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "12590.17",
+    "startDate": "2025-01-01T00:00:00.000Z",
+    "endDate": "2025-01-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Purchase Discounts",
+    "group": "OPERATING_EXPENSES",
+    "value": "-9018.92",
+    "startDate": "2025-01-01T00:00:00.000Z",
+    "endDate": "2025-01-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales",
+    "group": "REVENUE",
+    "value": "19042.00",
+    "startDate": "2025-02-01T00:00:00.000Z",
+    "endDate": "2025-02-28T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Other Expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "7740.37",
+    "startDate": "2025-02-01T00:00:00.000Z",
+    "endDate": "2025-02-28T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Purchase Discounts",
+    "group": "OPERATING_EXPENSES",
+    "value": "-6015.53",
+    "startDate": "2025-02-01T00:00:00.000Z",
+    "endDate": "2025-02-28T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Sales",
+    "group": "REVENUE",
+    "value": "7319.00",
+    "startDate": "2025-03-01T00:00:00.000Z",
+    "endDate": "2025-03-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Shipping Charge",
+    "group": "REVENUE",
+    "value": "10.00",
+    "startDate": "2025-03-01T00:00:00.000Z",
+    "endDate": "2025-03-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Cost of sales",
+    "group": "COGS",
+    "value": "108.11",
+    "startDate": "2025-03-01T00:00:00.000Z",
+    "endDate": "2025-03-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Other Expenses",
+    "group": "OPERATING_EXPENSES",
+    "value": "2171.60",
+    "startDate": "2025-03-01T00:00:00.000Z",
+    "endDate": "2025-03-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Purchase Discounts",
+    "group": "OPERATING_EXPENSES",
+    "value": "-2831.51",
+    "startDate": "2025-03-01T00:00:00.000Z",
+    "endDate": "2025-03-31T00:00:00.000Z",
+    "source": "source_2"
+  },
+  {
+    "type": "Exchange Gain or Loss",
+    "group": "NON_OPERATING_EXPENSES",
+    "value": "-37608.92",
+    "startDate": "2025-04-01T00:00:00.000Z",
+    "endDate": "2025-04-30T00:00:00.000Z",
+    "source": "source_2"
+  }
+]
