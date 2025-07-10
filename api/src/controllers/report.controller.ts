@@ -14,7 +14,7 @@ export async function getProfitLossReport(req: Request, res: Response): Promise<
                 continue;
             }
             data.push({
-                id: item.periodName.toString().toLowerCase().replace(/\s/g, "-"),
+                id: `${new Date(item.startDate).toISOString().split("T")[0]}|${new Date(item.endDate).toISOString().split("T")[0]}`,
                 periodName: item.periodName,
                 startDate: item.startDate,
                 endDate: item.endDate,
@@ -32,8 +32,6 @@ export async function getProfitLossReport(req: Request, res: Response): Promise<
 
 export async function getRecords(req: Request, res: Response): Promise<Response> {
     try {
-        const page = getNumberParam(req.query.page, 1);
-        const pageSize = getNumberParam(req.query.pageSize, 10);
         let source = req.query.source ? String(req.query.source) : null;
         const startDate = typeof req.query.startDate === 'string'
             ? new Date(req.query.startDate)

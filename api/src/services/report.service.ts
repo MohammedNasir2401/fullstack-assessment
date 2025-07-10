@@ -83,7 +83,7 @@ export async function generateProfitLossReport(source: string | null, startDate?
 
 export async function generateRecords(source?: string | null, startDate?: Date | null, endDate?: Date | null) {
     const whereClause: Prisma.RecordWhereInput = {};
-    if (source) {
+    if (source && source != 'all') {
         whereClause.source = {
             equals: String(source)
         };
