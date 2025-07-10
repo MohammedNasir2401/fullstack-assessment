@@ -2,7 +2,7 @@ import express from 'express';
 import dotenv from 'dotenv';
 import { errorHandler } from './middlewares/error-handler';
 import logger from './utils/logger';
-import router from './routes/reports.routes';
+import reportRoutes from './routes/report.routes';
 
 dotenv.config();
 
@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(errorHandler);
 
 
-app.use('/reports', router);
+app.use('/report/', reportRoutes);
 
 app.listen(port, () => {
   logger.info(`Server running on port ${port}`);

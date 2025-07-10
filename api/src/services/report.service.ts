@@ -2,14 +2,31 @@ import { Prisma } from '@prisma/client';
 import prisma from '../../prisma/prismaClient';
 import { decimalToNumber, toTwoDecimalPlaces } from '../utils/validations';
 
-export async function generateProfitLossReport(source: string | null) {
-    let whereClause = {};
+export async function generateProfitLossReport(source: string | null, startDate?: Date, endDate?: Date) {
+    let whereClause: any = {};
+
     if (source) {
-        whereClause = {
-            source: {
-                equals: String(source)
-            }
-        };
+        whereClause.source = { equals: String(source) };
+    }
+
+    if (startDate || endDate) {
+        whereClause.AND = [];
+
+        if (startDate) {
+            whereClause.AND.push({
+                endDate: {
+                    gte: startDate,
+                },
+            });
+        }
+
+        if (endDate) {
+            whereClause.AND.push({
+                startDate: {
+                    lte: endDate,
+                },
+            });
+        }
     }
     const aggregatedData = await prisma.record.groupBy({
         by: ['group'],
@@ -61,32 +78,79 @@ export async function generateProfitLossReport(source: string | null) {
             return toTwoDecimalPlaces(this.profitBeforeTax - this.expenses);
         }
     };
-
-    return {
-        data: result,
-        metrics: {
-            grossProfit: result.grossProfit,
-            operatingProfit: result.operatingProfit,
-            netOtherIncomeExpense: result.netOtherIncomeExpense,
-            profitBeforeTax: result.profitBeforeTax,
-            netProfit: result.netProfit
-        }
-    };
+    return result
 }
 
-export async function generateRecords(source: string | null, page: number, pageSize: number) {
+export async function generateRecords(source?: string | null, startDate?: Date | null, endDate?: Date | null) {
     const whereClause: Prisma.RecordWhereInput = {};
     if (source) {
         whereClause.source = {
             equals: String(source)
         };
     }
+    if (startDate || endDate) {
+        whereClause.AND = [];
+        if (startDate) {
+            whereClause.AND.push({
+                endDate: {
+                    gte: startDate,
+                },
+            });
+        }
+
+        if (endDate) {
+            whereClause.AND.push({
+                startDate: {
+                    lte: endDate,
+                },
+            });
+        }
+    }
     const records = await prisma.record.findMany({
-        skip: (page - 1) * pageSize,
-        take: pageSize,
         where: whereClause
     })
     return records
+}
+
+export async function generateMonthlyPeriods() {
+    const result = await prisma.record.aggregate({
+        _min: {
+            startDate: true,
+        },
+        _max: {
+            endDate: true,
+        },
+    });
+    const periods = [];
+    const current = new Date(result._min.startDate!);
+    const endDate = new Date(result._max.endDate!);
+    const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+        'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    current.setDate(1);
+    endDate.setDate(1);
+    while (current <= endDate) {
+        // Get last day of current month (UTC)
+        const lastDay = new Date(Date.UTC(
+            current.getUTCFullYear(),
+            current.getUTCMonth() + 1,
+            0,
+            23, 59, 59, 999
+        ));
+
+        periods.push({
+            periodName: `${monthNames[current.getUTCMonth()]} ${current.getUTCFullYear()}`,
+            startDate: new Date(Date.UTC(
+                current.getUTCFullYear(),
+                current.getUTCMonth(),
+                1
+            )).toISOString(),
+            endDate: lastDay.toISOString()
+        });
+
+        // Move to next month (UTC)
+        current.setUTCMonth(current.getUTCMonth() + 1);
+    }
+    return periods;
 }
 
 
