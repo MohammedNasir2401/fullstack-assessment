@@ -10,7 +10,7 @@ export async function extractAndProcessDataStatement1() {
 
     const datePeriods = extractDatePeriods(jsonData);
     const topRows = normalizeArray(jsonData.Rows?.Row || []);
-    const records = extractRecords(topRows, datePeriods);
+    const records = extractRecords(topRows, datePeriods, null, []);
 
     await writeDataToFile('src/files/output/company_1.json', records);
     console.log(JSON.stringify(records, null, 2));
@@ -73,7 +73,7 @@ function extractRecords(rows: any, datePeriods: any, parentGroup = null, collect
     return collected;
 }
 
-function normalizeArray(rowOrArray) {
+function normalizeArray(rowOrArray: any) {
     return Array.isArray(rowOrArray) ? rowOrArray : [rowOrArray];
 }
 
