@@ -14,7 +14,6 @@ export async function loadDataAndInsertInDB() {
     for (const file of files) {
         const records = await readDataFromFile(`src/files/output/${file}`);
         console.log(records)
-        return;
         for (const record of records) {
             await prisma.record.create({
                 data: {
