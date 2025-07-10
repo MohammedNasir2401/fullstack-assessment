@@ -12,7 +12,7 @@ export async function extractAndProcessDataStatement1() {
     const topRows = normalizeArray(jsonData.Rows?.Row || []);
     const records = extractRecords(topRows, datePeriods);
 
-    await writeDataToFile('files/output/company_1.json', records);
+    await writeDataToFile('src/files/output/company_1.json', records);
     console.log(JSON.stringify(records, null, 2));
 }
 

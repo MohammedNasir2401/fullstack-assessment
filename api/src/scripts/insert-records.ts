@@ -12,7 +12,9 @@ export async function loadDataAndInsertInDB() {
     });
     const files = ['company_1.json', 'company_2.json'];
     for (const file of files) {
-        const records = await readDataFromFile(`files/output/${file}`);
+        const records = await readDataFromFile(`src/files/output/${file}`);
+        console.log(records)
+        return;
         for (const record of records) {
             await prisma.record.create({
                 data: {

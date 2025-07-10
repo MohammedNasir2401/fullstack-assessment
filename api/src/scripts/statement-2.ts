@@ -2,7 +2,7 @@ import { readDataFromFile, writeDataToFile } from '../utils/reports.js';
 
 
 export async function extractAndProcessDataStatement2() {
-    const fileData = await readDataFromFile('files/Income_Statement_Company_2.json');
+    const fileData = await readDataFromFile('src/files/Income_Statement_Company_2.json');
     const jsonData = fileData.data;
     const records = flattenPeriods(jsonData);
     await writeDataToFile('files/output/company_2.json', records);
