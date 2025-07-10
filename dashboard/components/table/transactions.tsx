@@ -9,7 +9,7 @@ interface TransactionsPanelProps {
     loading: boolean;
 }
 
-const TransactionsPanel: React.FC<TransactionsPanelProps> = ({ transactions, loading }) => {
+function TransactionsPanel({ transactions, loading }: TransactionsPanelProps) {
     if (loading) {
         return (
             <Box sx={{ width: "100%", display: "flex", justifyContent: "center", py: 2 }}>

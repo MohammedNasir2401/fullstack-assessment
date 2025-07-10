@@ -7,7 +7,7 @@ import {
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 
-import TransactionsPanel from "./TransactionsPanel";
+import TransactionsPanel from "./transactions";
 import { Transaction } from "@/lib/interfaces/transaction";
 import { ProfitLossData } from "@/lib/interfaces/profit-loss-data";
 

@@ -21,7 +21,7 @@ The `api` folder contains a TypeScript Express server with Prisma ORM.
 ### Getting Started (Development)
 
 1. **Install dependencies**
-   ```bash
+   ```
    cd api
    npm install
    ```
@@ -42,4 +42,37 @@ The `api` folder contains a TypeScript Express server with Prisma ORM.
 
 ## Dashboard
 
-*Not yet started* 
+1. **Install dependencies**
+   ```
+   cd dashboard
+   npm install
+   ```
+2. **Start the development server**
+   ```
+   npm run dev
+   ```
+3. **Build the production bundle**
+   ```
+   npm run build
+   ```
+---
+
+## ETL Script
+
+The ETL script reads JSON files, transforms the data, and inserts it into the database.
+
+**Run the ETL script**
+   ```
+   cd api && npx ts-node src/scripts/etl.ts
+   ```
+---
+
+## Deployment
+
+• The dashboard is deployed on Vercel.
+
+• The API is deployed on an AWS EC2 instance, and the database is hosted on AWS RDS.
+
+## Approach
+
+For the ETL script, I read the JSON files, transformed the data into a unified format, and then inserted it into the database. Initially my Schema was complex, but I simplified it to a single table with type and source fields, accomodating for more data source (in the future).
