@@ -9,7 +9,7 @@ export async function extractAndProcessDataStatement2() {
 }
 
 
-function flattenPeriods(payload) {
+function flattenPeriods(payload: any) {
     const SECTION_MAP = {
         revenue: 'REVENUE',
         cost_of_goods_sold: 'COGS',
@@ -18,19 +18,19 @@ function flattenPeriods(payload) {
         non_operating_expenses: 'NON_OPERATING_EXPENSES',
     };
 
-    const out = [];
+    const out: any = [];
 
-    payload.forEach(period => {
+    payload.forEach((period: any) => {
         const startDate = new Date(period.period_start + "T00:00:00.000Z").toISOString();
         const endDate = new Date(period.period_end + "T00:00:00.000Z").toISOString();
         const source = "source_2";
 
         Object.keys(SECTION_MAP).forEach(sectionKey => {
-            const groupName = SECTION_MAP[sectionKey];
+            const groupName = SECTION_MAP[sectionKey as keyof typeof SECTION_MAP];
             const section = period[sectionKey] || [];
 
-            section.forEach(block => {
-                (block.line_items || []).forEach(item => {
+            section.forEach((block: any) => {
+                (block.line_items || []).forEach((item: any) => {
                     if (item.value != '') {
 
                         out.push({
