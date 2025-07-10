@@ -3,18 +3,16 @@ import logger from '../utils/logger';
 import { getNumberParam } from '../utils/validations';
 import { generateProfitLossReport, generateRecords, generateMonthlyPeriods } from '../services/report.service';
 
-import prisma from '../../prisma/prismaClient';
 export async function getProfitLossReport(req: Request, res: Response): Promise<Response> {
     try {
-        const page = getNumberParam(req.query.page, 1);
-        const pageSize = getNumberParam(req.query.pageSize, 10);
         let source = req.query.source ? String(req.query.source) : null;
-        const profitLossReport = await generateProfitLossReport(source);
-        // const records = await generateRecords(source, page, pageSize);
         const datePeriods = await generateMonthlyPeriods();
         let data = [];
         for (const item of datePeriods) {
             let profitLossReportMonth = await generateProfitLossReport(source, new Date(item.startDate), new Date(item.endDate));
+            if (!profitLossReportMonth) {
+                continue;
+            }
             data.push({
                 id: item.periodName.toString().toLowerCase().replace(/\s/g, "-"),
                 periodName: item.periodName,
@@ -26,9 +24,6 @@ export async function getProfitLossReport(req: Request, res: Response): Promise<
         data.reverse();
         return res.status(200).json(data);
 
-
-
-        // return res.status(200).json({ profitLossReport, records, page, pageSize });
     } catch (error) {
         logger.error(error);
         return res.status(500).json({ error: 'Failed to generate P&L report' });

@@ -5,7 +5,7 @@ import { decimalToNumber, toTwoDecimalPlaces } from '../utils/validations';
 export async function generateProfitLossReport(source: string | null, startDate?: Date, endDate?: Date) {
     let whereClause: any = {};
 
-    if (source) {
+    if (source && source != 'all') {
         whereClause.source = { equals: String(source) };
     }
 
@@ -50,7 +50,7 @@ export async function generateProfitLossReport(source: string | null, startDate?
     });
 
     if (!aggregatedData || aggregatedData.length === 0) {
-        return { data: {}, metrics: {} };
+        return null;
     }
 
     const result = {
