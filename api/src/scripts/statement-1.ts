@@ -16,7 +16,7 @@ export async function extractAndProcessDataStatement1() {
     console.log(JSON.stringify(records, null, 2));
 }
 
-function extractDatePeriods(data) {
+function extractDatePeriods(data: any) {
     const datePeriods = [];
 
     const columns = data.Columns?.Column || [];
@@ -31,7 +31,7 @@ function extractDatePeriods(data) {
     return datePeriods;
 }
 
-function extractRecords(rows, datePeriods, parentGroup = null, collected = []) {
+function extractRecords(rows: any, datePeriods: any, parentGroup = null, collected: any) {
     for (const row of rows) {
         if (row.type === 'Section' && row.Rows?.Row) {
             const children = normalizeArray(row.Rows.Row);
@@ -42,13 +42,13 @@ function extractRecords(rows, datePeriods, parentGroup = null, collected = []) {
             const itemType = row.ColData[0]?.value;
             const cells = row.ColData.slice(1, datePeriods.length + 1);
 
-            cells.forEach((cell, index) => {
+            cells.forEach((cell: any, index: number) => {
                 if (cell.value !== '') {
                     if (cell.value !== '' && cell.value !== '0.00') {
 
                         collected.push({
                             type: itemType,
-                            group: mapGroupToCategory(parentGroup),
+                            group: mapGroupToCategory(parentGroup!),
                             value: cell.value,
                             startDate: datePeriods[index].start,
                             endDate: datePeriods[index].end,
