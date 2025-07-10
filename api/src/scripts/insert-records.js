@@ -1,4 +1,5 @@
-import prisma from '../../prisma/prismaClient.js';
+import { PrismaClient } from '@prisma/client';
+const prisma = new PrismaClient();
 import { readDataFromFile } from '../utils/reports.js';
 
 
