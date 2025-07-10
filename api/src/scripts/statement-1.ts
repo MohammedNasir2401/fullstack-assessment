@@ -5,7 +5,7 @@ import path from 'path';
 
 export async function extractAndProcessDataStatement1() {
 
-    const fileData = await readDataFromFile('files/Income_Statement_Company_1.json');
+    const fileData = await readDataFromFile('src/files/Income_Statement_Company_1.json');
     const jsonData = fileData.data;
 
     const datePeriods = extractDatePeriods(jsonData);
