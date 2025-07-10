@@ -75,4 +75,4 @@ The ETL script reads JSON files, transforms the data, and inserts it into the da
 
 ## Approach
 
-For the ETL script, I read the JSON files, transformed the data into a unified format, and then inserted it into the database. Initially my Schema was complex, but I simplified it to a single table with type and source fields, accomodating for more data source (in the future).
+For the ETL script, I read the JSON files, transformed the data into a unified format, and then inserted it into the database. Initially my Schema was complex, but I simplified it to a single table with type and source fields, accomodating for more data source (in the future). 
