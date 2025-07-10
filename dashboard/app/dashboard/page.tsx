@@ -55,7 +55,7 @@ export default function DashboardPage() {
     return (
         isLoading ? <Loader /> :
             <Container sx={{ marginTop: 2 }}>
-                <div style={{ display: "flex", marginBottom: 40 }}>
+                <div style={{ display: "flex", flexWrap: "wrap", marginBottom: 40 }}>
                     <StatCard label="Net Profit" subtitle="Last Month" value={chartData!.recentNetProfits.lastMonthNetProfit} />
                     <StatCard label="Net Profit" subtitle="Last 3 Months" value={chartData!.recentNetProfits.last3MonthsNetProfit} />
                     <StatCard label="Net Profit" subtitle="Last 6 Months" value={chartData!.recentNetProfits.last6MonthsNetProfit} />
