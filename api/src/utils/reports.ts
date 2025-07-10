@@ -30,3 +30,10 @@ export async function writeDataToFile(filePath: string, data: any) {
     await fs.mkdir(dir, { recursive: true });
     await fs.writeFile(filePath, JSON.stringify(data, null, 2), 'utf-8');
 }
+
+export function getNetProfitForLastNMonths(data: any, n: number): number {
+    if (data.length < n) {
+        return 0;
+    }
+    return data.slice(0, n).reduce((sum: number, item: any) => sum + item.netProfit, 0);
+}

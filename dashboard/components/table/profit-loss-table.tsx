@@ -10,6 +10,7 @@ import {
     CircularProgress,
     Tooltip,
     IconButton,
+    Snackbar,
 } from "@mui/material";
 import { Transaction } from "@/lib/interfaces/transaction";
 import { ProfitLossData } from "@/lib/interfaces/profit-loss-data";
@@ -20,6 +21,7 @@ import ProfitLossRow from "./row";
 import CustomSelect from "../shared/select";
 import { dataSourcesSelectOptions } from "@/lib/consts/data-sources";
 import RefreshIcon from "@mui/icons-material/Refresh";
+import Loader from "../shared/loader";
 
 
 const fetchTransactions = async (id: string, defaultDataSource: string): Promise<Transaction[]> => {
@@ -45,6 +47,7 @@ function ProfitLossTable() {
     const [sortConfig, setSortConfig] = useState<{ key: keyof ProfitLossData; direction: "asc" | "desc" } | null>(null);
     const [page, setPage] = useState(0);
     const rowsPerPage = 10;
+    const [isSnackbarOpen, setIsSnackbarOpen] = useState(false);
     const [defaultDataSource, setDefaultDataSource] = useState<string>("all");
     useEffect(() => {
         fetchData();
@@ -67,6 +70,12 @@ function ProfitLossTable() {
         if (res.ok) {
             setProfitLossData(jsonData);
         }
+    }
+
+    async function handleRefresh() {
+        await fetchData();
+        setIsSnackbarOpen(true);
+
     }
 
 
@@ -124,16 +133,15 @@ function ProfitLossTable() {
     };
 
     return (
-        isLoading ? <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-            <CircularProgress />
-        </Box> :
+        isLoading ?
+            <Loader /> :
             <Paper sx={{ p: 3, overflowX: "auto" }}>
                 <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", mb: 1 }}>
                     <Typography sx={{ mb: 3 }} variant="h5" gutterBottom>
                         Profit & Loss Statement
                     </Typography>
                     <Tooltip title="Refresh Data">
-                        <IconButton color="primary" aria-label="refresh">
+                        <IconButton onClick={handleRefresh} color="primary" aria-label="refresh">
                             <RefreshIcon />
                         </IconButton>
                     </Tooltip>
@@ -168,7 +176,16 @@ function ProfitLossTable() {
                         />
                     </Box>
                 </TableContainer>
+                <Snackbar
+
+                    anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
+                    open={isSnackbarOpen}
+                    autoHideDuration={6000}
+                    onClose={() => setIsSnackbarOpen(false)}
+                    message="Data Refreshed Successfully"
+                />
             </Paper>
+
     );
 };
 
