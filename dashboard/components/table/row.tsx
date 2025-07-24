@@ -24,25 +24,25 @@ const ProfitLossRow: React.FC<ProfitLossRowProps> = ({ row, isExpanded, onToggle
         <>
             <TableRow hover>
 
-                <TableCell>{row.periodName}</TableCell>
-                <TableCell align="right">${row.revenue}</TableCell>
-                <TableCell align="right">${row.cogs}</TableCell>
-                <TableCell align="right">${row.operatingExpenses}</TableCell>
-                <TableCell align="right">${row.nonOperatingExpenses}</TableCell>
-                <TableCell align="right">${row.otherIncome}</TableCell>
-                <TableCell align="right">${row.otherExpenses}</TableCell>
-                <TableCell align="right">${row.expenses}</TableCell>
-                <TableCell align="right">${row.grossProfit}</TableCell>
-                <TableCell align="right">${row.operatingProfit}</TableCell>
-                <TableCell align="right">${row.netOtherIncomeExpense}</TableCell>
-                <TableCell align="right">${row.profitBeforeTax}</TableCell>
+                <TableCell sx={{ fontSize: "12px", padding: "6px 16px" }}>{row.periodName}</TableCell>
+                <TableCell align="right" sx={{ fontSize: "12px", padding: "6px 16px" }}>$ {row.revenue}</TableCell>
+                <TableCell align="right" sx={{ fontSize: "12px", padding: "6px 16px" }}>$ {row.cogs}</TableCell>
+                <TableCell align="right" sx={{ fontSize: "12px", padding: "6px 16px" }}>$ {row.operatingExpenses}</TableCell>
+                <TableCell align="right" sx={{ fontSize: "12px", padding: "6px 16px" }}>$ {row.nonOperatingExpenses}</TableCell>
+                <TableCell align="right" sx={{ fontSize: "12px", padding: "6px 16px" }}>$ {row.otherIncome}</TableCell>
+                <TableCell align="right" sx={{ fontSize: "12px", padding: "6px 16px" }}>$ {row.otherExpenses}</TableCell>
+                <TableCell align="right" sx={{ fontSize: "12px", padding: "6px 16px" }}>$ {row.expenses}</TableCell>
+                <TableCell align="right" sx={{ fontSize: "12px", padding: "6px 16px" }}>$ {row.grossProfit}</TableCell>
+                <TableCell align="right" sx={{ fontSize: "12px", padding: "6px 16px" }}>$ {row.operatingProfit}</TableCell>
+                <TableCell align="right" sx={{ fontSize: "12px", padding: "6px 16px" }}>$ {row.netOtherIncomeExpense}</TableCell>
+                <TableCell align="right" sx={{ fontSize: "12px", padding: "6px 16px" }}>$ {row.profitBeforeTax}</TableCell>
                 <TableCell
                     align="right"
-                    sx={{ fontWeight: "bold", color: row.netProfit >= 0 ? "success.main" : "error.main" }}
+                    sx={{ fontWeight: "bold", color: row.netProfit >= 0 ? "success.main" : "error.main", fontSize: "12px", padding: "6px 16px" }}
                 >
-                    ${row.netProfit}
+                    $ {row.netProfit}
                 </TableCell>
-                <TableCell>
+                <TableCell sx={{ fontSize: "12px", padding: "6px 16px" }}>
                     <IconButton size="small" onClick={() => onToggle(row.id)}>
                         {isExpanded ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
                     </IconButton>

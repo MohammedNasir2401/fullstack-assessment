@@ -20,7 +20,7 @@ function TransactionsPanel({ transactions, loading }: TransactionsPanelProps) {
 
     if (transactions.length === 0) {
         return (
-            <Typography variant="body2" sx={{ textAlign: "center", py: 2, color: "text.secondary" }}>
+            <Typography variant="body2" sx={{ textAlign: "center", py: 2, color: "text.secondary", fontSize: "12px" }}>
                 No transactions found.
             </Typography>
         );
@@ -37,33 +37,33 @@ function TransactionsPanel({ transactions, loading }: TransactionsPanelProps) {
                         key={i}
                         elevation={0}
                         sx={{
-                            p: 1.5,
+                            p: 1,
                             display: "flex",
                             flexDirection: "column",
-                            gap: 0.75,
+                            gap: 0.5,
                             borderLeft: "4px solid",
                             border: "1px solid",
                             borderColor: "lightgrey",
-                            fontSize: "0.85rem",
+                            fontSize: "12px",
                             borderRadius: 2,
                             backgroundColor: "background.paper",
                         }}
                     >
                         <Box display="flex" justifyContent="space-between" alignItems="center">
-                            <Typography variant="body2" fontWeight={500}>
+                            <Typography variant="body2" fontWeight={500} sx={{ fontSize: "12px" }}>
                                 {tx.type}
                             </Typography>
                             <Typography
                                 variant="body2"
                                 fontWeight="bold"
-                                color={tx.value >= 0 ? "success.main" : "error.main"}
+                                sx={{ fontSize: "12px" }}
                             >
                                 $ {tx.value.toLocaleString()}
                             </Typography>
                         </Box>
 
                         <Box display="flex" alignItems="center" gap={1}>
-                            <Chip label={formatString(tx.group)} size="small" />
+                            <Chip label={formatString(tx.group)} size="small" sx={{ fontSize: "0.65rem", height: "20px" }} />
                         </Box>
                     </Paper>
                 ))}

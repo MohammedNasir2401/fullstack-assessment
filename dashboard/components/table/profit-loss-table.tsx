@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import {
     Paper,
     Typography,
@@ -11,96 +11,60 @@ import {
     IconButton,
     Snackbar,
 } from "@mui/material";
-import { Transaction } from "@/lib/interfaces/transaction";
 import { ProfitLossData } from "@/lib/interfaces/profit-loss-data";
 import { Pagination, Box } from '@mui/material';
-
+import { useAppDispatch, useAppSelector } from '@/store';
 import ProfitLossHeader from "./header";
 import ProfitLossRow from "./row";
 import CustomSelect from "../shared/select";
 import { dataSourcesSelectOptions } from "@/lib/consts/data-sources";
 import RefreshIcon from "@mui/icons-material/Refresh";
 import Loader from "../shared/loader";
+import { fetchProfitLoss } from "@/store/profit-loss-slice";
+import { fetchTransactions } from "@/store/transaction-slice";
+import Error from "../shared/error";
 
 
-const fetchTransactions = async (id: string, defaultDataSource: string): Promise<Transaction[]> => {
-    const params = new URLSearchParams({
-        source: defaultDataSource,
-        startDate: id.split("|")[0],
-        endDate: id.split("|")[1],
-    });
-    const url = process.env.NEXT_PUBLIC_API_URL + '/report/records?' + params.toString();
-    const res = await fetch(url, {
-        cache: 'no-store',
-    });
-    const jsonData = await res.json();
-    return jsonData.records ?? [];
-};
 
 function ProfitLossTable() {
 
-
+    const dispatch = useAppDispatch();
+    const { data, loading, error } = useAppSelector(state => state.profitLoss);
+    const { mappedTransactions, loadingMap } = useAppSelector(state => state.transactions);
     const [expanded, setExpanded] = useState<string | null>(null);
-    const [loadingMap, setLoadingMap] = useState<Record<string, boolean>>({});
-    const [txMap, setTxMap] = useState<Record<string, Transaction[]>>({});
     const [sortConfig, setSortConfig] = useState<{ key: keyof ProfitLossData; direction: "asc" | "desc" } | null>(null);
     const [page, setPage] = useState(0);
     const rowsPerPage = 10;
     const [isSnackbarOpen, setIsSnackbarOpen] = useState(false);
     const [defaultDataSource, setDefaultDataSource] = useState<string>("all");
     useEffect(() => {
-        fetchData();
+        dispatch(fetchProfitLoss({ source: defaultDataSource }));
     }, [defaultDataSource]);
 
-    const [isLoading, setIsLoading] = useState(true);
-    const [profitLossData, setProfitLossData] = useState<ProfitLossData[]>([]);
 
-    async function fetchData() {
-        const params = new URLSearchParams({
-            source: defaultDataSource
-        });
-        const url = process.env.NEXT_PUBLIC_API_URL + '/report/profit-loss?' + params.toString();
-        const res = await fetch(url, {
-            cache: 'no-store',
-
-        });
-        const jsonData = await res.json();
-        setIsLoading(false);
-        if (res.ok) {
-            setProfitLossData(jsonData);
-        }
-    }
 
     async function handleRefresh() {
-        await fetchData();
+        await dispatch(fetchProfitLoss({ source: defaultDataSource }));
         setIsSnackbarOpen(true);
-
     }
 
 
 
-    const toggleRow = async (id: string) => {
+    const toggleRow = (id: string) => {
         if (expanded === id) {
             setExpanded(null);
             return;
         }
-
         setExpanded(id);
-
-        if (!txMap[id]) {
-            setLoadingMap((prev) => ({ ...prev, [id]: true }));
-            const data = await fetchTransactions(id, defaultDataSource);
-            setTxMap((prev) => ({ ...prev, [id]: data }));
-            setLoadingMap((prev) => ({ ...prev, [id]: false }));
+        if (!mappedTransactions[id]) {
+            dispatch(fetchTransactions({ id, dataSource: defaultDataSource }));
         }
     };
 
-    const sortedData = React.useMemo(() => {
-        if (!sortConfig) return profitLossData;
-
+    const sortedData = useMemo(() => {
+        if (!sortConfig) return data;
         const { key, direction } = sortConfig;
-
-        return [...profitLossData].sort((a, b) => {
+        return [...data].sort((a, b) => {
             const aVal = a[key];
             const bVal = b[key];
 
@@ -118,7 +82,7 @@ function ProfitLossTable() {
 
             return 0;
         });
-    }, [profitLossData, sortConfig]);
+    }, [data, sortConfig]);
 
     const handleSortChange = (key: keyof ProfitLossData) => {
         if (sortConfig?.key === key) {
@@ -132,58 +96,60 @@ function ProfitLossTable() {
     };
 
     return (
-        isLoading ?
-            <Loader /> :
-            <Paper sx={{ p: 3, overflowX: "auto" }}>
-                <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", mb: 1 }}>
-                    <Typography sx={{ mb: 3 }} variant="h5" gutterBottom>
-                        Profit & Loss Statement
-                    </Typography>
-                    <Tooltip title="Refresh Data">
-                        <IconButton onClick={handleRefresh} color="primary" aria-label="refresh">
-                            <RefreshIcon />
-                        </IconButton>
-                    </Tooltip>
-                </Box>
-                <CustomSelect label="Select the Source" onChange={(e) => { setDefaultDataSource(e as string) }} options={dataSourcesSelectOptions} value={defaultDataSource} />
-                <TableContainer>
-                    <Table size="small" stickyHeader>
-                        <ProfitLossHeader sortConfig={sortConfig} onSortChange={handleSortChange} />
-                        <TableBody>
-                            {sortedData
-                                .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
-                                .map((row) => (
-                                    <ProfitLossRow
-                                        key={row.id}
-                                        row={row}
-                                        isExpanded={expanded === row.id}
-                                        onToggle={toggleRow}
-                                        transactions={txMap[row.id] ?? []}
-                                        loading={!!loadingMap[row.id]}
-                                    />
-                                ))}
-                        </TableBody>
-                    </Table>
-                    <Box display="flex" justifyContent="center" mt={2}>
-                        <Pagination
-                            count={Math.ceil(sortedData.length / rowsPerPage)}
-                            page={page + 1}
-                            onChange={(_, value) => setPage(value - 1)}
-                            color="primary"
-                            showFirstButton
-                            showLastButton
-                        />
+        error ?
+            <Error message={error} /> :
+            loading ?
+                <Loader /> :
+                <Paper sx={{ p: 3, overflowX: "auto" }}>
+                    <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", mb: 1 }}>
+                        <Typography sx={{ mb: 3 }} variant="h5" gutterBottom>
+                            Profit & Loss Statement
+                        </Typography>
+                        <Tooltip title="Refresh Data">
+                            <IconButton onClick={handleRefresh} color="primary" aria-label="refresh">
+                                <RefreshIcon />
+                            </IconButton>
+                        </Tooltip>
                     </Box>
-                </TableContainer>
-                <Snackbar
+                    <CustomSelect label="Select the Source" onChange={(e) => { setDefaultDataSource(e as string) }} options={dataSourcesSelectOptions} value={defaultDataSource} />
+                    <TableContainer>
+                        <Table size="small" stickyHeader>
+                            <ProfitLossHeader sortConfig={sortConfig} onSortChange={handleSortChange} />
+                            <TableBody>
+                                {sortedData
+                                    .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
+                                    .map((row) => (
+                                        <ProfitLossRow
+                                            key={row.id}
+                                            row={row}
+                                            isExpanded={expanded === row.id}
+                                            onToggle={toggleRow}
+                                            transactions={mappedTransactions[row.id] ?? []}
+                                            loading={!!loadingMap[row.id]}
+                                        />
+                                    ))}
+                            </TableBody>
+                        </Table>
+                        <Box display="flex" justifyContent="center" mt={2}>
+                            <Pagination
+                                count={Math.ceil(sortedData.length / rowsPerPage)}
+                                page={page + 1}
+                                onChange={(_, value) => setPage(value - 1)}
+                                color="primary"
+                                showFirstButton
+                                showLastButton
+                            />
+                        </Box>
+                    </TableContainer>
+                    <Snackbar
 
-                    anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
-                    open={isSnackbarOpen}
-                    autoHideDuration={6000}
-                    onClose={() => setIsSnackbarOpen(false)}
-                    message="Data Refreshed Successfully"
-                />
-            </Paper>
+                        anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
+                        open={isSnackbarOpen}
+                        autoHideDuration={6000}
+                        onClose={() => setIsSnackbarOpen(false)}
+                        message="Data Refreshed Successfully"
+                    />
+                </Paper>
 
     );
 };

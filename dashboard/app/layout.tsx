@@ -4,6 +4,8 @@ import "./globals.css";
 import Header from "@/components/shared/header";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import theme from "@/lib/theme";
+import { store } from "@/store";
+import { Provider } from 'react-redux';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,12 +26,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <ThemeProvider theme={theme}>
-          <CssBaseline />
-          <Header />
-          {children}
-        </ThemeProvider>
+        <Provider store={store}>
+          <ThemeProvider theme={theme}>
+            <CssBaseline />
+            <Header />
+            {children}
+          </ThemeProvider>
+        </Provider>
       </body>
-    </html>
+    </html >
   );
 }

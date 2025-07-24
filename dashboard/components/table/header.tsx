@@ -49,6 +49,8 @@ const ProfitLossHeader: React.FC<ProfitLossHeaderProps> = ({ sortConfig, onSortC
                             whiteSpace: "nowrap",
                             position: "relative",
                             pr: 3,
+                            fontSize: "12px",
+                            padding: "8px 16px",
                         }}
                     >
                         <Box sx={{ display: "flex", alignItems: "center", justifyContent: col === "periodName" ? "flex-start" : "flex-end" }}>
@@ -72,7 +74,7 @@ const ProfitLossHeader: React.FC<ProfitLossHeaderProps> = ({ sortConfig, onSortC
                     </TableCell>
                 );
             })}
-            <TableCell sx={{ width: 48 }} />
+            <TableCell sx={{ width: 48, fontSize: "12px", padding: "8px 16px" }} />
         </TableRow>
     </TableHead>
 );
